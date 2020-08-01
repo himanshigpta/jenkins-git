@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+        stage("build-jenkins-git") {
+            steps {
+                echo "trying jenkins-git"
+            }
+        }
+    }
+}
